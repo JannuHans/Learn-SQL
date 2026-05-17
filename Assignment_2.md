@@ -91,15 +91,6 @@ It combines: Data lake, Data warehouse, Machine learning platform
 Built on Apache Spark.
 Choose Databricks when: AI/ML workloads are important. Data engineering pipelines are large. Both structured and unstructured data exist.
 
-When Would You Choose Which?
-
-Situation           	  Best Choice
-Beginner-Friendly   	  BigQuery
-Multi-Cloud Flexibility	  Snowflake
-AWS-Centric Company	      Redshift
-Microsoft Enterprise	  Synapse
-AI + ML Heavy Workloads	  Databricks
-
 I would choose Google BigQuery because it is simple and serverless. If better scaling and flexibility are needed, I would choose Snowflake. Companies already using AWS may choose Amazon Redshift.
 
 
@@ -112,16 +103,6 @@ These databases are designed for applications where: Millisecond or microsecond 
 
 In-memory databases store data in RAM instead of disk, making them extremely fast for real-time applications. Different databases solve different problems. Redis is mainly used for caching, sessions, and real-time apps to improve speed. Memcached is a simple caching tool that reduces database load. SAP HANA is used for real-time enterprise analytics and business reporting. Hazelcast and Apache Ignite are used for distributed computing and large-scale data processing, while Aerospike is designed for massive high-speed transactions.
 
-Comparison of In-Memory Databases
-
-Database    	Main Strength	      Best Problem Solved
-Redis	        Ultra-fast cache      Real-time applications
-Memcached	    Lightweight cache	  Simple caching
-SAP HANA	    Real-time analytics	  Enterprise analytics
-Hazelcast	    Distributed memory	  Clustered applications
-Apache Ignite	Distributed compute	  Real-time computation
-Aerospike	    Massive transactions  Ultra-scale systems
-		
 I would choose Redis because it is very fast and useful for caching and real-time apps. For simple caching only, Memcached is enough. Big companies needing live analytics may use SAP HANA.
 
 
