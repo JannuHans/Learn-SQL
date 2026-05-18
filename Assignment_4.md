@@ -59,7 +59,7 @@ CREATE TABLE salary (
 
 '''
 
-![Alt](<https://i.ibb.co/27VmmQxD/Screenshot-2026-05-18-132245.png)
+![Alt](https://i.ibb.co/27VmmQxD/Screenshot-2026-05-18-132245.png)
 
 I used PRIMARY KEY on salary_id so every salary record has a unique ID.
 I used NOT NULL on important fields because these values should not be empty.
