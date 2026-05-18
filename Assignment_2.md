@@ -1,4 +1,4 @@
-Assignment 2 - Database Selection Framework
+### Assignment 2 - Database Selection Framework
 
 Problem Statement: For each category below, compare the options, explain when you would pick one over the other, and justify your choice with a real-world scenario:
 
@@ -8,7 +8,7 @@ Problem Statement: For each category below, compare the options, explain when yo
 4. In-Memory Databases - compare available options, what completely different problems do they solve?
 5. Object Storage - compare available options, when does vendor lock-in become a real concern?
 
-Solution:
+## Solution:
 
 Relational Databases:
 Relational databases store data in tables with rows and columns and use SQL for querying. They are best when data has relationships, consistency is important, and transactions must be reliable.
@@ -37,7 +37,7 @@ For relational databases, I would choose MySQL for learning, small projects, and
 
 
 
-NoSQL Databases:
+## NoSQL Databases:
 NoSQL databases are designed for flexible, large-scale, and unstructured data.
 
 1.	MongoDB: JSON documents
@@ -65,7 +65,7 @@ I would choose MongoDB for flexible applications because it is easy to work with
 
 
 
-Cloud Data Warehouses:
+## Cloud Data Warehouses:
 Cloud Data Warehouses are designed for
 Big data analytics, Business intelligence (BI), Reporting, Machine learning analytics, Data engineering pipelines.
 
@@ -96,7 +96,7 @@ I would choose Google BigQuery because it is simple and serverless. If better sc
 
 
 
-In-Memory Databases:
+## In-Memory Databases:
 An in-memory database stores data primarily in RAM instead of traditional disk storage.
 Because RAM is much faster than HDDs or SSDs: Data access becomes extremely fast,Latency reduces significantly,Real-time processing becomes possible.
 These databases are designed for applications where: Millisecond or microsecond response time matters and Huge numbers of requests happen simultaneously.
@@ -108,7 +108,7 @@ I would choose Redis because it is very fast and useful for caching and real-tim
 
 
 
-Object Storage:
+## Object Storage:
 Object storage is used to store large amounts of unstructured data such as images, videos, backups, logs, documents, and data lake files. Popular object storage options include Amazon S3, Google Cloud Storage, Azure Blob Storage, and MinIO.
 
 1. Amazon S3 
